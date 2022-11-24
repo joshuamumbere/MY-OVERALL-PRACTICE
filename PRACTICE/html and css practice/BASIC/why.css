@@ -1,0 +1,51 @@
+div[id=why] > span {
+  color: #e47373;
+  text-align: center;
+  width: 3cm;
+  height: 1cm;
+  background-color: #4e4473; }
+
+table, td, th {
+  border: 1px solid greenyellow;
+  border-collapse: collapse;
+  padding: 20px; }
+
+#foo {
+  border: 2px solid red; }
+
+button {
+  border-radius: 10px;
+  width: 4cm;
+  margin: 20px;
+  height: 1cm;
+  background-color: green; }
+
+button:hover {
+  background-color: aqua;
+  width: 1.5cm;
+  height: 1.4cm; }
+
+#flex {
+  display: flex;
+  flex-wrap: wrap; }
+
+#flex > div {
+  background-color: #a9a022;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px; }
+
+#greed {
+  display: grid;
+  background-color: #e2e2e8;
+  grid-column-gap: 20px;
+  grid-row-gap: 20px;
+  grid-template-columns: 200px 100px auto; }
+
+.greed {
+  background-color: maroon;
+  font-size: 20px;
+  padding: 20px; }
+
+/*# sourceMappingURL=why.css.map */
