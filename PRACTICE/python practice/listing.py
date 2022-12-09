@@ -10,4 +10,4 @@ for _ in range(4):
     """
     we can also use the concatination way but using the multipication way
     """
-print ("Lydia\n" *4,end="hmmmmm")
+print ("Lydia\n" *4,end="hmmmmm ")
