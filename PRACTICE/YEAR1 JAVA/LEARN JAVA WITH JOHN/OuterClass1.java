@@ -7,7 +7,7 @@ public class OuterClass1 {
     }
     //take note that a static inner class has a key word 'static'
     //and the way we create its object is differnet from the one for a non static inner class
-    public  static class InnerClass2{
+    public static class InnerClass2{
         int Now;
         public void Age(int Now){
             System.out.println("My age right now is "+ Now);
