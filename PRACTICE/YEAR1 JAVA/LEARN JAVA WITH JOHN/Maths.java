@@ -7,7 +7,7 @@ public class Maths {
         void m(){
             System.out.println("Inner class is fucking awesome");
         
-        Maths.this.m();}
+        Maths.this.m();}//calling outer class method
     }
     public static void main(String[] args) {
         Maths m = new Maths();
